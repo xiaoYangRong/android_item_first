@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuTestActivity"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="点击Menu键显示选项菜单"
+    android:textSize="25dp"
+    />
+    <EditText
+    android:id="@+id/editText01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="上下文菜单1"
+
+    />
+    <EditText
+        android:id="@+id/editText02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上下文菜单1"
+
+        />
+</LinearLayout>

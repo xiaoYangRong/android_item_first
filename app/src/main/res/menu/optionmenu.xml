@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="搜索"
+        android:icon="@mipmap/ic_search"
+        app:showAsAction="ifRoom"
+       />
+    <item android:id="@+id/Info"
+
+          android:title="通知"
+          android:icon="@mipmap/ic_notifications"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/sz"
+          android:title="设置"
+          android:icon="@drawable/touxiang"
+          app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/sz1" android:title="设置1" android:icon="@drawable/touxiang"/>
+                <item android:id="@+id/sz2" android:title="设置2" android:icon="@drawable/touxiang"/>
+                <item android:id="@+id/sz3" android:title="设置3" android:icon="@drawable/touxiang"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/about"
+          android:title="关于"
+          android:icon="@drawable/touxiang"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/help"
+          android:title="帮助"
+          android:icon="@drawable/touxiang"/>
+</menu>

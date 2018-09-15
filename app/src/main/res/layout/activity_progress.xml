@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+<ProgressBar
+    android:id="@+id/pb1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <ProgressBar
+       android:id="@+id/pb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_marginTop="15dp"
+         />
+    <ProgressBar
+        android:id="@+id/pb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_marginTop="15dp"
+        tools:targetApi="lollipop"
+        android:progress="10"
+        android:max="100"
+        android:secondaryProgress="30"/>
+    <ProgressBar
+        android:id="@+id/pb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.ProgressBar.Horizontal"
+        android:layout_marginTop="15dp"
+        tools:targetApi="lollipop"
+        android:progress="10"
+        android:max="100"
+        android:secondaryProgress="30"/>
+
+    <ProgressBar
+        android:id="@+id/pb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar"
+        android:indeterminateDrawable="@drawable/bg_progress"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/btn_ProgessBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模拟进度"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_progressDialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="progressDialog1"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_progressDialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="progressDialog2"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+</LinearLayout>

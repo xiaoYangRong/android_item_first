@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogActivity"
+    android:orientation="vertical"
+    >
+<Button
+    android:id="@+id/dialog1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="dialog1默认样式"
+    android:textSize="20sp"
+
+    />
+    <Button
+        android:id="@+id/dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog2"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/dialog4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog4"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog4"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/dialog5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog5"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>
